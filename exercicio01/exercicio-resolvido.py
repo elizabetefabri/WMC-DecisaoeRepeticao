@@ -2,9 +2,9 @@
 Faça um Programa que peça dois números e imprima o maior deles.
 '''
 
-#faço a captura dos dados, podendo ser inserido um float também
-numero1 = input('Digite o 1ª numero: ')
-numero2 = input('Digite o 2ª numero: ')
+#faço a captura dos dados do usuário
+numero1 = float(input('Digite o 1ª numero: '))
+numero2 = float(input('Digite o 2ª numero: '))
 
 #faço a comparação dos números qual é o maior
 if numero1 > numero2:
